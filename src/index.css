@@ -1,13 +1,115 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+ /* **  RoadMap  ** */
+ .timeline {
+   position: relative;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+ .timeline::after {
+   content: "";
+   position: absolute;
+   border: 2px dashed white;
+   top: 5%;
+   height: 100%;
+   bottom: 0;
+   left: 50%;
+   margin-left: -3px;
+ }
+
+ .timeline_box {
+   padding: 10px 40px;
+   position: relative;
+   background-color: inherit;
+   width: 50%;
+ }
+
+ .timeline_box::after {
+   content: url("./assets/image/svg/timeline_sticker_1.svg");
+   position: absolute;
+   right: -17px;
+   top: 50%;
+   transform: translateY(-50%);
+   border-radius: 50%;
+   z-index: 1;
+ }
+
+ .left {
+   left: 0;
+ }
+
+ .right {
+   left: 50%;
+ }
+
+ .left::before {
+   content: url("./assets/image/svg/line_and_circle_left.svg");
+   height: 0;
+   position: absolute;
+   top: 43%;
+   width: 0;
+   z-index: 1;
+   right: 21%;
+ }
+
+ .right::before {
+   content: url("../src/assets/image/svg/line_and_circle.svg");
+   height: 0;
+   position: absolute;
+   top: 43%;
+   z-index: 1;
+   left: 0;
+ }
+
+ .right::after {
+   left: -35px;
+ }
+
+ .left::after {
+   right: -35px;
+ }
+
+ .content_box {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 120px;
+   padding-right: 120px;
+   position: relative;
+   border-radius: 6px;
+ }
+
+
+
+ @media (max-width:992px) {
+   .content_box {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     padding-left: 62px;
+     padding-right: 2px;
+     position: relative;
+     border-radius: 6px;
+   }
+
+   .timeline::after {
+     left: 31px;
+   }
+
+   .timeline_box {
+     width: 100%;
+     padding-left: 90px;
+     padding-right: 25px;
+   }
+
+   .timeline_box::before {
+     left: -5px;
+     content: url("../src/assets/image/svg/line_and_circle.svg");
+   }
+
+   .left::after,
+   .right::after {
+     left: -5px;
+   }
+
+   .right {
+     left: 0%;
+   }
+ }
