@@ -24,11 +24,11 @@ const MyNav = () => {
                             <div className='d-flex flex-column text-center text-lg-start justify-content-center align-items-center'>
                                 <ul className='d-flex flex-column flex-lg-row align-items-center p-0 m-0 gap-4'>
                                     <button className='d-lg-none btn-close position-absolute top-0 end-0 me-5 mt-5 close_btn' onClick={() => setnav(true)}></button>
-                                    <li><a className='text-white navLinks' href="#">Home</a></li>
-                                    <li><a className='text-white navLinks' href="#">About</a></li>
-                                    <li><a className='text-white navLinks' href="#">Team</a></li>
-                                    <li><a className='text-white navLinks' href="#">Roadmap</a></li>
-                                    <li><a className='text-white navLinks' href="#">Partners</a></li>
+                                    <li><a className='text-white navLinks position-relative' href="#">Home</a></li>
+                                    <li><a className='text-white navLinks position-relative' href="#">About</a></li>
+                                    <li><a className='text-white navLinks position-relative' href="#">Team</a></li>
+                                    <li><a className='text-white navLinks position-relative' href="#">Roadmap</a></li>
+                                    <li><a className='text-white navLinks position-relative' href="#">Partners</a></li>
                                     <li className='d-none d-lg-flex position-relative'><a href='#' className="nav_icon_box z_index_5 ms-lg-3 d-flex align-items-center justify-content-center">
                                         <img src={navIcon1} alt="icons" />
                                         <div className="nav_icons"></div>

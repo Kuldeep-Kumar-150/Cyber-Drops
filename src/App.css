@@ -87,7 +87,20 @@
 .navLinks:hover {
   color: #F1AC73 !important;
 }
-
+.navLinks::after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1.5px;
+  background-color: #F1AC73;
+  bottom: -2px;
+  left: 50%;
+  transition: 0.6s linear;
+}
+.navLinks:hover::after{
+  width: 100%;
+  transform: translateX(-50%);
+}
 .menu_icon {
   height: 2px;
   width: 30px;
@@ -269,7 +282,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2px;
+  padding-top: 2.37px;
 }
 
 .slick-dots li.slick-active button:before {

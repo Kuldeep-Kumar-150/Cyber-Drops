@@ -10,9 +10,9 @@ const RoadMap = () => {
             <div className='capImage5 position-absolute'><img src={capImage5} alt="capImage3" /></div>
             <Container>
                 <h5 className='fs_48 fw-bold text-white text-center mb-3'>Road <span className='clr_khakhi'>Map</span></h5>
-                <div class="timeline">
-                    <div class="timeline_box right">
-                        <div class="content_box">
+                <div className="timeline">
+                    <div className="timeline_box right">
+                        <div className="content_box">
                             <h2 className="text-white fs_lato fw-semibold fs_lg">
                                 March 2022
                             </h2>
@@ -21,8 +21,8 @@ const RoadMap = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="timeline_box left ">
-                        <div class="content_box align-items-lg-end d-flex flex-column">
+                    <div className="timeline_box left ">
+                        <div className="content_box align-items-lg-end d-flex flex-column">
                             <h2 className="text-white fs_lato fw-normal fs_lg">
                                 March 2022
                             </h2>
@@ -31,8 +31,8 @@ const RoadMap = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="timeline_box right">
-                        <div class="content_box">
+                    <div className="timeline_box right">
+                        <div className="content_box">
                             <h2 className="text-white fs_lato fw-semibold fs_lg">
                                 March 2022
                             </h2>
@@ -41,8 +41,8 @@ const RoadMap = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="timeline_box left ">
-                        <div class="content_box align-items-lg-end d-flex flex-column">
+                    <div className="timeline_box left ">
+                        <div className="content_box align-items-lg-end d-flex flex-column">
                             <h2 className="text-white fs_lato fw-normal fs_lg">
                                 April 2022
                             </h2>
@@ -51,8 +51,8 @@ const RoadMap = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="timeline_box right">
-                        <div class="content_box">
+                    <div className="timeline_box right">
+                        <div className="content_box">
                             <h2 className="text-white fs_lato fw-normal fs_lg">
                                 June 2022
                             </h2>
@@ -61,8 +61,8 @@ const RoadMap = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="timeline_box left ">
-                        <div class="content_box align-items-lg-end d-flex flex-column">
+                    <div className="timeline_box left ">
+                        <div className="content_box align-items-lg-end d-flex flex-column">
                             <h2 className="text-white fs_lato fw-normal fs_lg">
                                 Sometime in Q3
                             </h2>
@@ -71,8 +71,8 @@ const RoadMap = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="timeline_box right">
-                        <div class="content_box">
+                    <div className="timeline_box right">
+                        <div className="content_box">
                             <h2 className="text-white fs_lato fw-normal fs_lg">
                                 Sometime in Q3
                             </h2>
@@ -82,8 +82,8 @@ const RoadMap = () => {
                         </div>
                     </div>
                 </div>
-                <div class="timeline_box left ">
-                    <div class="content_box align-items-lg-end d-flex flex-column">
+                <div className="timeline_box left ">
+                    <div className="content_box align-items-lg-end d-flex flex-column">
                         <h2 className="text-white fs_lato fw-normal fs_lg">
                             Sometime in Q4
                         </h2>
