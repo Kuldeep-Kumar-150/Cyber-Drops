@@ -46,7 +46,7 @@ const Team = () => {
     return (
         <section className="py-5 position-relative">
             <div className='capImage3 position-absolute'><img src={capImage3} alt="capImage3" /></div>
-            <div className='cap_img_2 position-absolute'><img src={capImage2} alt="capImage2" /></div>
+            <div className='cap_img_2 position-absolute d-none d-lg-flex'><img src={capImage2} alt="capImage2" /></div>
             <div className="bg_blur_elipse3"></div>
             <Container className="my-5 p-1">
                 <h5 className="text-white fs_48 fw-bold text-center mb-5">Meet the <span className="clr_khakhi">Team</span></h5>

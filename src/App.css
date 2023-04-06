@@ -101,7 +101,7 @@
   right: -100%;
   width: 100%;
   height: 100vh;
-  background-color: #F1AC73;
+  background-color:black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,7 +115,7 @@
   right: 0;
   width: 100%;
   height: 100vh;
-  background-color: #F1AC73;
+  background-color:black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,7 +132,9 @@
   z-index: 20 !important;
   width: 100%;
 }
-
+.close_btn{
+  background-color: white;
+}
 .preloader_animation {
   animation: preloader 4s linear infinite;
 }

@@ -23,7 +23,7 @@ const MyNav = () => {
                         <div className={Nav ? "d-flex align-items-center hide-nav" : "d-flex align-items-center show-nav"}>
                             <div className='d-flex flex-column text-center text-lg-start justify-content-center align-items-center'>
                                 <ul className='d-flex flex-column flex-lg-row align-items-center p-0 m-0 gap-4'>
-                                    <button className='d-lg-none btn-close position-absolute top-0 end-0 me-5 mt-5' onClick={() => setnav(true)}></button>
+                                    <button className='d-lg-none btn-close position-absolute top-0 end-0 me-5 mt-5 close_btn' onClick={() => setnav(true)}></button>
                                     <li><a className='text-white navLinks' href="#">Home</a></li>
                                     <li><a className='text-white navLinks' href="#">About</a></li>
                                     <li><a className='text-white navLinks' href="#">Team</a></li>
