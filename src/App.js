@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import MyNav from './components/MyNav';
-import Preloader from './components/Preloader';
+// import Preloader from './components/Preloader';
 import MyHeader from './components/MyHeader';
 import OurMission from './components/OurMission';
 import Partners from './components/Partners';
@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       <BackToTop />
-      <Preloader />
+      {/* <Preloader /> */}
       <div className='d-flex flex-column vh_80_xl'>
         <MyNav />
         <MyHeader />

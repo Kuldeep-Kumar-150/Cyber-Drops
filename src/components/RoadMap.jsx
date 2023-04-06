@@ -21,7 +21,7 @@ const RoadMap = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="timeline_box left ">
+                    <div className="timeline_box left">
                         <div className="content_box align-items-lg-end d-flex flex-column">
                             <h2 className="text-white fs_lato fw-normal fs_lg">
                                 March 2022
@@ -41,7 +41,7 @@ const RoadMap = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="timeline_box left ">
+                    <div className="timeline_box left">
                         <div className="content_box align-items-lg-end d-flex flex-column">
                             <h2 className="text-white fs_lato fw-normal fs_lg">
                                 April 2022
@@ -61,7 +61,7 @@ const RoadMap = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="timeline_box left ">
+                    <div className="timeline_box left">
                         <div className="content_box align-items-lg-end d-flex flex-column">
                             <h2 className="text-white fs_lato fw-normal fs_lg">
                                 Sometime in Q3
