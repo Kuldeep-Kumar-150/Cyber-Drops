@@ -1,4 +1,5 @@
 import React from 'react'
+import pageLogo from '../assets/image/svg/page_logo.svg'
 import { Container } from 'react-bootstrap'
 
 const Preloader = () => {
@@ -10,8 +11,8 @@ const Preloader = () => {
         <section>
             <Container>
                 <div className="preloader">
-                    <div className="d-flex align-items-center justify-content-center preloader">
-                        <h6 className='preloader_animation text-white fw-bold fs_48'>Cyber-Drops</h6>
+                    <div className="d-flex align-items-center justify-content-center preloader bg-black">
+                        <div className="preloader_animation"><img src={pageLogo} alt="pageLogo" /></div>
                     </div>
                 </div>
             </Container>

@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const Works = () => {
     return (
-        <section className='my-xl-5 position-relative'>
+        <section className='my-xl-5 position-relative overflow-hidden'>
             <Container>
                 <h6 className='fs_48 fw-bold text-white text-center py-3 py-lg-5'>How it <span className='clr_khakhi'>works</span></h6>
                 <Row className='justify-content-center'>

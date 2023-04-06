@@ -7,7 +7,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const Partners = () => {
   return (
-    <section className='mt-5'>
+    <section className='mt-5 overflow-hidden'>
       <Container className='pt-lg-5 mt-lg-5'>
         <h3 className='fs_48 fw-bold text-white text-center mb-5 mb-xl-0'>Part<span className='clr_khakhi'>ners</span></h3>
       </Container>

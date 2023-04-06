@@ -6,10 +6,10 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const OurAlgo = () => {
     return (
-        <section className='position-relative'>
+        <section className='position-relative overflow-hidden'>
             <div className="bg_blur_elipse"></div>
             <Container>
-                <p className='fs_sm fw-bold clr_khakhi text-center mt-5 pt-5 pt-xl-0 mt-xl-0'>For business and collaborations, <a className='clr_khakhi' href="mailto:team@cyberdrops.finance">contact us team@cyberdrops.finance</a></p>
+                <p className='fs_sm fw-bold clr_khakhi text-center pt-3 pt-xl-0'>For business and collaborations, <a className='clr_khakhi' href="mailto:team@cyberdrops.finance">contact us team@cyberdrops.finance</a></p>
                 <Row className='py-5 align-items-center flex-column-reverse flex-md-row'>
                     <Col md={6} data-aos="zoom-in">
                         <h4 className='fs_48 fw-bold text-white mt-4'>Our <span className='clr_khakhi'>Algo</span></h4>

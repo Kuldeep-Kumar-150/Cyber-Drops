@@ -7,7 +7,7 @@ import polygen_3 from '../assets/image/png/polygen_3.png'
 
 const WhatDo = () => {
     return (
-        <section className='py-5 my-3 position-relative'>
+        <section className='py-5 my-3 position-relative overflow-hidden'>
             <div className="bg_blur_elipse2"></div>
             <div className="bg_blur_box3"></div>
             <div className='cap_img position-absolute d-none d-xxl-flex'><img src={capImage} alt="capImage" /></div>
