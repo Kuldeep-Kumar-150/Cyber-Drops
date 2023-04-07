@@ -15,7 +15,6 @@ import OurAlgo from './components/OurAlgo';
 import WhatDo from './components/WhatDo';
 import Works from './components/Works';
 import Team from './components/Team';
-import RoadMap from './components/RoadMap';
 import Faqs from './components/Faqs';
 import MyFooter from './components/MyFooter';
 import BackToTop from './components/BackToTop';
@@ -42,7 +41,6 @@ function App() {
       <Works />
       <Team />
       <RoadMap2/>
-      {/* <RoadMap /> */}
       <Faqs />
       <MyFooter />
     </>

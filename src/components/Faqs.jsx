@@ -5,10 +5,10 @@ import { Container } from 'react-bootstrap'
 
 const Faqs = () => {
     return (
-        <section className='py-sm-5 my-5 position-relative'>
+        <section className='py-5 my-5 position-relative'>
             <div className="bg_blur_elipse4 position-absolute"></div>
             <div className='capImage6 position-absolute'><img src={capImage} alt="capImage" /></div>
-            <Container>
+            <Container className='mt-5'>
                 <h5 className='clr_khakhi fs_48 fw-bold text-center mb-5 pb-3'>FAQ <span className='text-white'>’s</span></h5>
                 <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="0" className='rounded-2 accordion_width_xl mx-auto'>
