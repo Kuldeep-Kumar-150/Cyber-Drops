@@ -298,7 +298,7 @@
 
 .timeline_bgimage {
   background-image: url("./assets/image/png/timeline_bgimage.png");
-  background-size: cover;
+  background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -569,9 +569,10 @@
   left: -40px;
   top: 100%;
 }
- .timeline_content_box {
-   width: 100% !important;
- }
+
+.timeline_content_box {
+  width: 100% !important;
+}
 
 @media (min-width:576px) {
   :root {
@@ -818,5 +819,14 @@
 
   .heading_width {
     width: 420px;
+  }
+}
+
+@media (min-width:1400px) {
+  .timeline_bgimage {
+    background-image: url("./assets/image/png/timeline_bgimage.png");
+    background-size:100% 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }

@@ -15,7 +15,7 @@ const MyNav = () => {
         document.body.style.overflow = "hidden"
     )
     return (
-        <header className='py-2'>
+        <header className='py-2 bg-black'>
             <nav>
                 <Container>
                     <div className='d-flex justify-content-between align-items-center'>

@@ -10,10 +10,14 @@ import sticker5 from '../assets/image/svg/elipse_5.svg'
 import sticker6 from '../assets/image/svg/elipse_6.svg'
 import sticker7 from '../assets/image/svg/elipse_7.svg'
 import sticker8 from '../assets/image/svg/elipse_8.svg'
+import capImage4 from '../assets/image/svg/cap_img.svg'
+import capImage5 from '../assets/image/svg/cap_img_3.svg'
 
 const RoadMap2 = () => {
     return (
-        <section className='timeline_bgimage'>
+        <section className='timeline_bgimage position-relative'>
+            <div className='capImage4 position-absolute'><img src={capImage4} alt="capImage3" /></div>
+            <div className='capImage5 position-absolute'><img src={capImage5} alt="capImage3" /></div>
             <Container className='d-none d-md-block'>
                 <h5 className='fs_48 fw-bold text-white text-center mb-5 mt-5'>Road <span className='clr_khakhi'>Map</span></h5>
                 <div className="timeline_line position-relative">
@@ -75,7 +79,7 @@ const RoadMap2 = () => {
                     </div>
                 </div>
             </Container>
-            <Container  className='d-md-none'>
+            <Container className='d-md-none'>
                 <h5 className='fs_48 fw-bold text-white text-center mb-5 mt-5'>Road <span className='clr_khakhi'>Map</span></h5>
                 <div className="timeline_line position-relative">
                     <div className='image_1 position-absolute d-flex align-items-center'>

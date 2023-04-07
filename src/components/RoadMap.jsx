@@ -1,13 +1,11 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import capImage4 from '../assets/image/svg/cap_img.svg'
-import capImage5 from '../assets/image/svg/cap_img_3.svg'
+
 
 const RoadMap = () => {
     return (
         <section className='timeline_bgimage mt-5 pt-5 position-relative overflow-hidden'>
-            <div className='capImage4 position-absolute'><img src={capImage4} alt="capImage3" /></div>
-            <div className='capImage5 position-absolute'><img src={capImage5} alt="capImage3" /></div>
+            
             <Container>
                 <h5 className='fs_48 fw-bold text-white text-center mb-3'>Road <span className='clr_khakhi'>Map</span></h5>
                 <div className="timeline">
