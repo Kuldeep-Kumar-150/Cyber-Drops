@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import MyNav from './components/MyNav';
-import Preloader from './components/Preloader';
+// import Preloader from './components/Preloader';
 import MyHeader from './components/MyHeader';
 import OurMission from './components/OurMission';
 import Partners from './components/Partners';
@@ -19,6 +19,7 @@ import RoadMap from './components/RoadMap';
 import Faqs from './components/Faqs';
 import MyFooter from './components/MyFooter';
 import BackToTop from './components/BackToTop';
+import RoadMap2 from './components/RoadMap2';
 
 function App() {
   useEffect(() => {
@@ -29,7 +30,7 @@ function App() {
   return (
     <>
       <BackToTop />
-      <Preloader />
+      {/* <Preloader /> */}
       <div className='d-flex flex-column vh_100_xl'>
         <MyNav />
         <MyHeader />
@@ -40,7 +41,8 @@ function App() {
       <WhatDo />
       <Works />
       <Team />
-      <RoadMap />
+      <RoadMap2/>
+      {/* <RoadMap /> */}
       <Faqs />
       <MyFooter />
     </>
